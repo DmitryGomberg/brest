@@ -15,7 +15,11 @@
    background-position: center;
    position: relative;
 }
-
+.main.irka {
+   background-image: url(../images/irka-fon.jpg);
+   padding-top: 30px!important;
+   padding-bottom: 30px!important;
+}
 .main::after {
    content: '';
    position: absolute;
@@ -126,12 +130,13 @@
 
 .more-img {
    margin: 0 auto;
-   max-width: 200px;
+   max-width: 150px;
    margin-bottom: 30px;
 }
 
 .more-img>img {
    max-width: 100%;
+   width: 100%;
    border-radius: 50%;
 }
 
@@ -188,6 +193,29 @@
    }
 
    .main-links {
-      font-size: 11px;
+      font-size: 14px;
    }
+}
+
+.main-wrap.irka{
+   position: relative;
+}
+.irka-decor{
+   position: absolute;
+   top: -10px;
+   left: -10px;max-width: 140px;
+}
+
+.irka-decor>img {
+   max-width: 100%;
+}
+
+.irka-decor-2{
+   position: absolute;
+   bottom: 20px;
+   right: 20px;max-width: 80px;
+}
+
+.irka-decor-2>img {
+   max-width: 100%;
 }
